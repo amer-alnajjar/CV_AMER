@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body >
+    <header id="home">
+        <div class="containr">
+            <nav>
+                <div class="left">
+                    <div class="logo">
+                        <img src="img/RWG.png" alt="">
+                    </div>
+
+                    <div class="lienk" id="navlinks">
+                        <i class="bi bi-x-circle" onclick="hideMenu()"></i>
+                        <a href="index.html">English</a>
+                        <a href="#home">الرئيسية</a>
+                        <a href="#about">حول</a>
+                        <a href="#services">الخدمات</a>
+                        <a href="#work">أعمالي</a>
+                    </div>
+                    <i class="bi bi-list" onclick="showMenu()"></i>
+
+                </div>
+
+
+                <div class="rhite">
+                    <a href="#contact">تواصل</a>
+                </div>
+
+            </nav>
+
+
+
+
+            <div class="pirent">
+
+                <div class="left" >
+                    <img src="img/IMG-20211023-WA0080.png" alt="">
+                </div>
+                <div class="rhite" style="direction: rtl;"   >
+                    <h1 >عامر فايز النجار</h1>
+                    <p>عمري 19 سنة ، أدرس تكنولوجيا المعلومات التطبيقية في جامعة الأقصى ، لدي العديد من المهارات الإلكترونية التي تساعدني في الكثير من الأعمال
+                    </p>
+                    <div>
+                        <a href="img/سيرة ذاتية عامر.png" download="سيرة ذاتية عامر" class="btn1 btn2">تحميل السيرة الذاتية </a>
+                    </div>
+                </div>
+
+               
+
+            </div>
+
+
+        </div>
+    </header>
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu() {
+            navlinks.style.right = "0";
+        }
+        function hideMenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+
+    <!---------------------------------------------------------------------------- about------------------------------------ -->
+
+    <section class="about" id="about">
+        <div class="containr_abute">
+
+            <div class="text_abute" style="direction: rtl; margin-right: 35px;">
+                <h1><span>عني</span> </h1>
+                <h3>مرحبا! انا عامر</h3>
+                <p>طالب في جامعة الأقصى في قسم تكنولوجيا المعلومات شغوف بكل ما يتعلق بالتكنولوجيا ، أعمل كمستقل من خلال
+                    مواقع مستقلة في مجال تطوير الواجهة الأمامية وتحرير الفيديو ولدي العديد من المهارات التي تساعدني في
+                    العمل بشكل احترافي.</p>
+
+                <div class="sochil">
+                    <span><a href=""><i class="bi bi-facebook"></i></a></span>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-whatsapp"></i></i></a>
+                </div>
+            </div>
+
+            <div class="img_abute">
+                <img src="img/IMG-20211023-WA0131 (1).jpg" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!--------------------------------------------------------------- services---------------------------------------------------------------------- -->
+
+
+
+    <section class="services" id="services">
+
+        <div class="featurs">
+            <div class="text-services">
+                <h1><span>خدماتي</span> </h1>
+                <p>الأعمال التي أقوم بتقديمها للعملاء</p>
+            </div>
+
+            <div class="container-services"style="direction: rtl; ">
+
+
+                <div class="feat">
+                    <i class="bi bi-film"></i>
+                    <h3>محرر الفيديو</h3>
+                    <p>لدي القدرة على تحرير الفيديو وعمل مونتاج احترافي لجميع فئات الفيديو
+                    </p>
+
+                </div>
+                <div class="feat">
+                    <i class="bi bi-file-code"></i>
+                    <h3>تطوير الواجهة الأمامية</h3>
+                    <p>لدي القدرة على تطوير الواجهة الأمامية بالعديد من اللغات html و css و javascript
+                    </p>
+                </div>
+
+                <div class="feat">
+                    <i class="bi bi-brush-fill"></i>
+                    <h3> UI UX تصميم موقع</h3>
+                    <p>لدي القدرة على تصميم واجهات احترافية لمواقع الويب باستخدام Adobe xd و Figma
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- <div class="featurs">
+            <div class="container-services">
+                <div class="feat">
+                    <i class="bi bi-display"></i>
+                    <h3>web designer</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat harum unde repudiandae ut
+                        nostrum
+                    </p>
+                </div>
+
+                <div class="feat">
+                    <i class="bi bi-phone"></i>
+                    <h3>app</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat harum unde repudiandae ut
+                        nostrum
+                    </p>
+                </div>
+
+
+                <div class="feat">
+                    <i class="bi bi-file-earmark"></i>
+                    <h3>Dealing with Office</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat harum unde repudiandae ut
+                        nostrum
+                    </p>
+
+                </div>
+
+            </div>
+        </div> -->
+
+
+    </section>
+
+
+    <!-- ----------------------------------------------------------freelancer----------------------------------------------------------------- -->
+
+
+
+    <section class="freelancer" id="work">
+        <div class="textfree" style="direction: rtl; ">
+            <h1>أنا متاح للعمل <span>بالقطعة</span> </h1>
+            <p>قم بتوفير موقع ويب نظيف وعالي الجودة لحلول أعمالك</p>
+            <a href="img/سيرة ذاتية عامر.png" download="سيرة ذاتية عامر" class="btn1 btn2">تحميل السيرة الذاتية </a>
+        </div>
+
+    </section>
+
+
+    <!-- -------------------------------------------------works-------------------------------------- -->
+
+    <section class="work">
+        <div class="text-services">
+            <h1><span>أعمالي</span> </h1>
+            <p>عينات من عملي ، انقر لرؤيتها</p>
+        </div>
+        <div class="container_work" >
+
+            <div class="feat">
+                <div class="text">
+                    <span> تطوير الواجهة الأمامية</span>
+                    <a href="https://www.behance.net/gallery/132573655/Template-To-Frontend" target="_blank">انقر هنا</a>
+                </div>
+                <img src="img/almaha1.png" alt="">
+            </div>
+            <div class="feat">
+                <div class="text">
+                    <span>تحرير الفيديو</span>
+                    <a href="https://www.behance.net/gallery/122817003/Intro-and-Video-Editing" target="_blank">انقر هنا</a>
+                </div>
+                <img src="img/Untitled-1.jpg" alt="">
+            </div>
+
+            <div class="feat">
+                <div class="text">
+                    <span>تصميم صفحات الويب</span>
+                    <a href="https://www.behance.net/gallery/129603499/ui-ux-website-design" target="_blank">انقر هنا</a>
+                </div>
+                <img src="img/uiux fdihks2.png" alt="">
+            </div>
+
+        </div>
+
+    </section>
+
+    <!----------------------------------------------- blog--------------------------------------------------------------------------------- -->
+
+    <section class="Extra_work">
+        <div class="text-Extra_work" style="direction: rtl; ">
+            <h1><span>الأعمال</span> الاضافية</h1>
+            <p>لدي العديد من المهارات الإضافية منها</p>
+        </div>
+
+        <div class="container_Extra_work" style="direction: rtl; ">
+
+            <div class="feat">
+                <div class="img">
+                    <img src="img/مايكروسوفت-اوفيس.webp" alt="">
+                </div>
+                <div class="text-Extra_work2">
+                    <a href="#">
+                        <h1>التعامل مع برامج office</h1>
+                    </a>
+                    <p>لدي قدرة عالية على استخدام برامج Office مثل Word و Excel و Access و PowerPoint.</p>
+                </div>
+            </div>
+
+            <div class="feat">
+                <div class="img">
+                    <img src="img/مصمم-شعارات-الرياض-.png" alt="">
+                </div>
+                <div class="text-Extra_work2">
+                    <a href="https://www.behance.net/gallery/124474591/logo"target="_blank">
+                        <h1>تصميم الشعارات</h1>
+                    </a>
+                    <p>لدي القدرة على تصميم شعارات بسيطة عن طريق تحويل الاسم إلى شعار لطيف باستخدام Illustrator.</p>
+                </div>
+            </div>
+
+            <div class="feat">
+                <div class="img">
+                    <img src="img/811.jpg" alt="">
+                </div>
+                <div class="text-Extra_work2">
+                    <a href="https://www.behance.net/gallery/96091051/Graphic-Design"target="_blank">
+                        <h1>تصميم جرافيك</h1>
+                    </a>
+                    <p>يمكنني استخدام Photoshop و Illustrator في تصميم الملصقات والإعلانات واللافتات.</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!-- ---------------------------------------------------------------------contact my----------------------------------------------------- -->
+
+    <section id="contact" class="contact_my" style="direction: rtl; ">
+
+        <div class="text-contact_my">
+            <h1><span>تواصل</span> معي</h1>
+            <p>اتصل بي حتى أتمكن من مساعدتك</p>
+        </div>
+
+
+        <div class="containr">
+
+            <div class="containr_contact_my">
+                <div class="feat">
+                    <i class="bi bi-phone"></i>
+                    <h1>إتصل بي على </h1>
+                    <p>+972 595214393</p>
+                </div>
+                <div class="feat">
+                    <i class="bi bi-envelope"></i>
+                    <h1>ارسل لي رسالة بريد أكتروني</h1>
+                    <p>amer.fnj.2001@gmail.com</p>
+
+                </div>
+                <div class="feat">
+                    <i class="bi bi-whatsapp"></i>
+                    <h1>تواصل واتساب</h1>
+                    <p>+972 595214393</p>
+
+                </div>
+            </div>
+
+            <form >
+                <div class="contact_name">
+                    <input type="text" name="name" w required placeholder="اكتب اسمك">
+                    <input type="text" name="email" required placeholder="اكتب بريدك الإلكتروني ">
+                </div>
+                <div class="contact_text">
+                    <input type="text" placeholder="موضوعك"name="subject">
+                    <textarea name="masseg" id="" cols="30" rows="8" placeholder="رسالتك..."></textarea>
+                </div>
+                <div class="contact_button">
+                    <button class="btn1">أرسل رسالة</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <!--------------------------------------------------- footer----------------------------------------------------- -->
+
+    <footer>
+
+        <img src="img/RWG.png" alt="">
+
+        <div class="nav_foot">
+            <a href="#home">الرئيسية</a>
+            <a href="#about">حول</a>
+            <a href="#services">الخدمات</a>
+            <a href="#work">أعمالي</a>
+
+        </div>
+
+        <div class="footer_sochil">
+            <a href="https://www.facebook.com/amer.alnajjar.5220" target="_blank"> <i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/amer__alnajjar/" target="_blank"> <i class="bi bi-instagram"></i></a>
+            <a href="https://www.behance.net/amer_fnj" target="_blank"><i class="fab fa-behance"></i></a>
+
+        </div>
+        <div>
+            <p> &copy; 2021 <span>Leon</span> All rhait resaved </p>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+
+</html>
