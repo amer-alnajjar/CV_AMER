@@ -359,7 +359,7 @@ nav .bi{
 
 @media (max-width: 700px){
   .featurs .feat {
-    height: 250px;
+    height: 280px;
     width: 300px;
   }
 
@@ -568,6 +568,9 @@ margin-bottom: 20px;
   }
   .Extra_work .text-Extra_work{
     margin-bottom: 50px;
+  }
+   .container_Extra_work .feat {
+    height: 400px;
   }
 }
 
